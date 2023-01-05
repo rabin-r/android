@@ -1,78 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name:"
-        android:layout_marginLeft="50dp"
+        android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:padding="10dp"
-        android:id="@+id/tname"
-         />
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/name"
-        android:layout_toRightOf="@+id/tname"
-        android:layout_marginTop="50dp"
-        android:hint="enter your name"
-        android:layout_marginLeft="10dp"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CGPA: "
-        android:layout_below="@+id/tname"
-        android:layout_marginLeft="50dp"
-        android:padding="10dp"
-        android:layout_marginTop="10dp"
-        android:id="@+id/tcgpa"
-        />
+        android:text="Login Page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:id="@+id/uName"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="enter your cgpa"
-        android:layout_below="@+id/name"
-        android:layout_toRightOf="@+id/tcgpa"
-        android:layout_marginLeft="10dp"
-        android:id="@+id/cgpa"/>
+        android:layout_margin="35dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="User Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/passWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="35dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="numberPassword" />
 
     <Button
+        android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="insert"
-        android:id="@+id/insert"
-        android:layout_below="@+id/tcgpa"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="login" />
+
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to activity 3"
+        android:layout_gravity="center"
         />
 
-    <Button
-        android:id="@+id/view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tcgpa"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_toRightOf="@+id/insert"
-        android:text="View" />
 
-    <Button
-        android:id="@+id/exit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tcgpa"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_toRightOf="@+id/view"
-        android:text="Exit" />
-
-</RelativeLayout>
+</LinearLayout>

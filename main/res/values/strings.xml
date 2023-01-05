@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">SQLiteDatabase</string>
+    <string name="app_name">Intent_gub</string>
+
+    <string-array name="players">
+        <item>Nazmul Hossain Shanto</item>
+        <item>Soumya Sarkar</item>
+        <item>Nazmul Hossain Shanto</item>
+        <item>Soumya Sarkar</item>
+        <item>Nazmul Hossain Shanto</item>
+        <item>Soumya Sarkar</item>
+        <item>Nazmul Hossain Shanto</item>
+        <item>Soumya Sarkar</item>
+        <item>Nazmul Hossain Shanto</item>
+        <item>Soumya Sarkar</item>
+        <item>Nazmul Hossain Shanto</item>
+        <item>Soumya Sarkar</item>
+        <item>Nazmul Hossain Shanto</item>
+        <item>Soumya Sarkar</item>
+        <item>Nazmul Hossain Shanto</item>
+        <item>Soumya Sarkar</item>
+        <item>Nazmul Hossain Shanto</item>
+        <item>Soumya Sarkar</item>
+    </string-array>
 </resources>
