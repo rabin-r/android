@@ -1,0 +1,45 @@
+SQlite, 
+Intent = explicit, broadcast
+graphical primitives
+calculator 
+lsit view
+
+liner layout, Event listner, Intent
+---------------------------------------
+
+/LinerLayout
+/layout_width=match_parent
+/layout_height=match_parent
+/orientation=vertical
+/textview=id,match_parent,wrap_content,text,textAlignment,textSize,textColor,paddingBottom,..
+/edittext=ems,inputtype,text
+/button=id,match_parent,wrap_content,text,textAlignment,color.
+
+
+
+
+
+--------------------------------------
+import class
+------------
+edittext etname,
+button btnok
+
+referencing
+----------------
+etname=(edittext) findViewByID(R.id.etName);
+btnok=(button) findViewByID(R.id.btnok);
+
+event listener
+--------------------
+btnok.setOnClickListener(new Vi.........)
+toast.maketext( activity_name.this, toast.Length_short).show().
+
+Intent
+-----------
+Intent intent =new Intent (FirstActivity.this,SecondActivity.class);
+startActivity(intent);
+
+
+
+
